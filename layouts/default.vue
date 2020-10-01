@@ -64,8 +64,13 @@ export default {
         },
         {
           title: 'Nova Postagem',
-          icon: 'lightbulb',
+          icon: 'home',
           to: { name: 'criar' }
+        },
+        {
+          title:'Postagem Completa',
+          icon: 'home',
+          to: {name: 'mostrar'}
         }
       ]
     }
