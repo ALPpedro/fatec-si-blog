@@ -63,9 +63,9 @@ export default {
           to: { name: 'index' }
         },
         {
-          title: 'Inspire',
+          title: 'Nova Postagem',
           icon: 'lightbulb',
-          to: { name: 'inspire' }
+          to: { name: 'criar' }
         }
       ]
     }
