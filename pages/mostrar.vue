@@ -2,10 +2,10 @@
   <section class="section">
     <div class="rows is-mobile">
       <card
-        titulo="Lorem ipsum"
-        texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elementum, mi ac eleifend convallis, lacus dui facilisis magna, ac volutpat est dolor quis ante. Ut mattis dolor nec lacinia elementum. Quisque blandit ex eu ipsum aliquet, vitae fermentum nunc ullamcorper. Aenean lacinia mauris ex, tincidunt finibus enim fringilla viverra. Integer dui ipsum, pellentesque eget tempus a, suscipit nec mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempor lectus in velit tincidunt tristique nec sed ligula. Aliquam vehicula lorem non justo volutpat condimentum. Duis laoreet semper tortor, eget congue mauris pulvinar a. Ut iaculis dui est, eu scelerisque arcu auctor ac.
-Donec condimentum elit at dignissim efficitur. Suspendisse semper orci eget eros lobortis gravida. Ut ut ipsum id tellus congue vestibulum. Curabitur ullamcorper et lacus ac imperdiet. Curabitur consectetur vulputate enim in pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per incepto."   autor="Paulo"
-      >
+        titulo="região de taquaritinga"
+        56 645 hab. Taquaritinga é um município da região central do estado de São Paulo, no Brasil.<br>
+        O município é formado pela sede e pelos distritos de Guariroba, Jurupema e Vila Negri.     
+        >
       </card>
       <card
         title="Vue js"
@@ -16,6 +16,12 @@ Donec condimentum elit at dignissim efficitur. Suspendisse semper orci eget eros
     </div>
   </section>
 </template>
+
+<style>
+  template{
+  bacground-color: #CCC
+  }
+</style>
 
 <script>
 import Card from '~/components/Card'
