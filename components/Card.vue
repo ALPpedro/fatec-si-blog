@@ -3,7 +3,7 @@
     <div class="card">
       <header class="card-header">
         <p class="card-header-title has-text-grey">
-          {{ title }}
+          {{ titulo }}
         </p>
       </header>
       <div class="card-content">
@@ -14,7 +14,7 @@
       <footer class="card-footer">
         <div class="card-footer-item">
           <span>
-            <p>Postado por esse corno: {{ autor }}</p>
+            <p>Postado por: {{ autor }}</p>
           </span>
         </div>
       </footer>
@@ -25,7 +25,7 @@
 <script>
 export default {
   props: {
-    title: {
+    titulo: {
       type: String,
       required: true
     },
