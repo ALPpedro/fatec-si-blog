@@ -1,18 +1,22 @@
 <template>
   <section class="section">
     <div class="rows is-mobile">
+      <n-link to="/mostrar">
       <card
-        title="Fatec em crise"
-        texto="Todos os alunos da fatec ficaram chocados com a tarefa em cima da hora do sdsdff dfsdfsdf "
-        autor="Claudinei"
+        titulo="Fatec em crise"
+        texto="Clique aqui para ler sobre."
+        autor="Paulo"
       >
       </card>
+      </n-link>
+      <n-link to="/mostrar">
       <card
-        title="Fatec em crise"
-        texto="Todos os alunos da fatec ficaram chocados com a tarefa em cima da hora do sdsdff dfsdfsdf "
-        autor="Claudinei"
+        titulo="Vue js"
+        texto="Clique aqui para ler sobre."
+        autor="Pedro"
       >
       </card>
+      </n-link>
     </div>
   </section>
 </template>
